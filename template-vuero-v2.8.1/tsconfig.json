@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "lib": ["esnext", "dom"],
+    "types": [
+      "vite/client",
+      "vite-plugin-pwa/client",
+      "@intlify/unplugin-vue-i18n/messages"
+    ],
+    "paths": {
+      "photoswipe/lightbox": [
+        "./node_modules/photoswipe/dist/types/lightbox/lightbox.d.ts"
+      ],
+      "/@src/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "server.ts",
+    "vite-plugin-purge-comments/**/*.ts",
+    "vite-plugin-vuero-doc/**/*.ts",
+    "types/**/*.d.ts",
+    "auto-imports.d.ts",
+    "typed-router.d.ts",
+    "build-ssg.ts",
+    "components.d.ts",
+    "components-global.d.ts",
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "scripts/**/*.ts",
+    "*.config.ts"
+  ],
+  "exclude": ["bulma-colors.ts"]
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "name": "سایدبار معمولی",
+    "category": "قالب",
+    "displayOrder": 0,
+    "new": false,
+    "route": {
+      "name": "starters-sidebar-blank-page-1",
+      "path": "/starters/sidebar-blank-page-1"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/regular-sidebar-light.webp",
+      "dark": "/images/screenshots/starters/regular-sidebar-dark.webp"
+    }
+  },
+  {
+    "name": "سایدبار منحنی",
+    "category": "قالب",
+    "displayOrder": 10,
+    "new": false,
+    "route": {
+      "name": "starters-sidebar-blank-page-2",
+      "path": "/starters/sidebar-blank-page-2"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/curved-sidebar-light.webp",
+      "dark": "/images/screenshots/starters/curved-sidebar-dark.webp"
+    }
+  },
+  {
+    "name": " سایدبار رنگی",
+    "category": "قالب",
+    "displayOrder": 20,
+    "new": false,
+    "route": {
+      "name": "starters-sidebar-blank-page-3",
+      "path": "/starters/sidebar-blank-page-3"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/colored-sidebar-light.webp",
+      "dark": "/images/screenshots/starters/colored-sidebar-dark.webp"
+    }
+  },
+  {
+    "name": "  سایدبار رنگی منحنی",
+    "category": "قالب",
+    "displayOrder": 30,
+    "new": false,
+    "route": {
+      "name": "starters-sidebar-blank-page-4",
+      "path": "/starters/sidebar-blank-page-4"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/curved-colored-sidebar-light.webp",
+      "dark": "/images/screenshots/starters/curved-colored-sidebar-dark.webp"
+    }
+  },
+  {
+    "name": "برچسب های سایدبار",
+    "category": "قالب",
+    "displayOrder": 40,
+    "new": false,
+    "route": {
+      "name": "starters-sidebar-blank-page-5",
+      "path": "/starters/sidebar-blank-page-5"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/sidebar-labels-light.webp",
+      "dark": "/images/screenshots/starters/sidebar-labels-dark.webp"
+    }
+  },
+  {
+    "name": "برچسب های هاور",
+    "category": "قالب",
+    "displayOrder": 50,
+    "new": false,
+    "route": {
+      "name": "starters-sidebar-blank-page-6",
+      "path": "/starters/sidebar-blank-page-6"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/hover-labels-light.webp",
+      "dark": "/images/screenshots/starters/hover-labels-dark.webp"
+    }
+  },
+  {
+    "name": " سایدبار شناور",
+    "category": "قالب",
+    "displayOrder": 60,
+    "new": false,
+    "route": {
+      "name": "starters-sidebar-blank-page-7",
+      "path": "/starters/sidebar-blank-page-7"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/floating-sidebar-light.webp",
+      "dark": "/images/screenshots/starters/floating-sidebar-dark.webp"
+    }
+  },
+  {
+    "name": " ناوبری استاندارد",
+    "category": "قالب",
+    "displayOrder": 70,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-1",
+      "path": "/starters/navbar-blank-page-1"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/standard-navbar-light.webp",
+      "dark": "/images/screenshots/starters/standard-navbar-dark.webp"
+    }
+  },
+  {
+    "name": " ناوبری محوشونده",
+    "category": "قالب",
+    "displayOrder": 80,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-2",
+      "path": "/starters/navbar-blank-page-2"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/fading-navbar-light.webp",
+      "dark": "/images/screenshots/starters/fading-navbar-dark.webp"
+    }
+  },
+  {
+    "name": " ناوبری رنگی",
+    "category": "قالب",
+    "displayOrder": 90,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-3",
+      "path": "/starters/navbar-blank-page-3"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/colored-navbar-light.webp",
+      "dark": "/images/screenshots/starters/colored-navbar-dark.webp"
+    }
+  },
+  {
+    "name": " ناوبری دراپ داون",
+    "category": "قالب",
+    "displayOrder": 100,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-4",
+      "path": "/starters/navbar-blank-page-4"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/dropdown-navbar-light.webp",
+      "dark": "/images/screenshots/starters/dropdown-navbar-dark.webp"
+    }
+  },
+  {
+    "name": " ناوبری دراپ داون رنگی",
+    "category": "قالب",
+    "displayOrder": 110,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-5",
+      "path": "/starters/navbar-blank-page-5"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/colored-dropdown-navbar-light.webp",
+      "dark": "/images/screenshots/starters/colored-dropdown-navbar-dark.webp"
+    }
+  },
+  {
+    "name": "ناوبری تمیز",
+    "category": "قالب",
+    "displayOrder": 120,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-6",
+      "path": "/starters/navbar-blank-page-6"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/clean-navbar-light.webp",
+      "dark": "/images/screenshots/starters/clean-navbar-dark.webp"
+    }
+  },
+  {
+    "name": "ناوبری تمیر وسط چین",
+    "category": "قالب",
+    "displayOrder": 130,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-7",
+      "path": "/starters/navbar-blank-page-7"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/clean-centered-navbar-light.webp",
+      "dark": "/images/screenshots/starters/clean-centered-navbar-dark.webp"
+    }
+  },
+  {
+    "name": "شفاف تمیز",
+    "category": "قالب",
+    "displayOrder": 140,
+    "new": false,
+    "route": {
+      "name": "starters-navbar-blank-page-8",
+      "path": "/starters/navbar-blank-page-8"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/clean-transparent-light.webp",
+      "dark": "/images/screenshots/starters/clean-transparent-dark.webp"
+    }
+  },
+  {
+    "name": "سایدبلاک  معمولی",
+    "category": "قالب",
+    "displayOrder": 150,
+    "new": false,
+    "route": {
+      "name": "starters-sideblock-blank-page-1",
+      "path": "/starters/sideblock-blank-page-1"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/regular-sideblock-light.webp",
+      "dark": "/images/screenshots/starters/regular-sideblock-dark.webp"
+    }
+  },
+  {
+    "name": "سایدبلاک منحنی",
+    "category": "قالب",
+    "displayOrder": 150,
+    "new": false,
+    "route": {
+      "name": "starters-sideblock-blank-page-2",
+      "path": "/starters/sideblock-blank-page-2"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/curved-sideblock-light.webp",
+      "dark": "/images/screenshots/starters/curved-sideblock-dark.webp"
+    }
+  },
+  {
+    "name": "سایدبلاک رنگی",
+    "category": "قالب",
+    "displayOrder": 160,
+    "new": false,
+    "route": {
+      "name": "starters-sideblock-blank-page-3",
+      "path": "/starters/sideblock-blank-page-3"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/colored-sideblock-light.webp",
+      "dark": "/images/screenshots/starters/colored-sideblock-dark.webp"
+    }
+  },
+  {
+    "name": "سایدبلاک رنگی منحنی",
+    "category": "قالب",
+    "displayOrder": 170,
+    "new": false,
+    "route": {
+      "name": "starters-sideblock-blank-page-4",
+      "path": "/starters/sideblock-blank-page-4"
+    },
+    "screenshot": {
+      "light": "/images/screenshots/starters/curved-colored-sideblock-light.webp",
+      "dark": "/images/screenshots/starters/curved-colored-sideblock-dark.webp"
+    }
+  }
+]

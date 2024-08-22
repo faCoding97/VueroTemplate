@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/*! main.scss | Vuero | Css ninja 2020-2023 */
+
+/* ==========================================================================
+SCSS Imports
+========================================================================== */
+
+@import './bulma-generated/generated-vars.sass';
+@import './css-variables/all';
+@import './abstracts/ltr';
+@import './abstracts/all';
+
+// Here we import bulma-css-vars instead of bulma
+// because we want to use the variables defined in the file
+@import '../../node_modules/@cssninja/bulma-css-vars/bulma-cv-lib.sass';
+@import './layout/all';
+@import './components/cards';
+@import './components/content';
+@import './components/forms-general';
+@import './components/forms-checkboxes';
+@import './components/forms-slider';
+@import './components/forms-multiselect';
+@import './components/steps';
+@import './components/links';
+@import './components/lists';
+@import './components/nprogress';
+@import './components/datepicker';
+@import './components/divider';
+@import './components/editors';
+@import './components/charts';
+@import './components/toggles';
+@import './components/placeload';
+@import './components/popovers';
+@import './components/stay-focus';
+@import './components/theme-switch';
+@import './components/tabs';
+@import './components/table';
+@import './components/toasts';
+@import './components/toolbar';
+@import './components/tooltips';
+@import './components/ckeditor';
+@import './components/color-picker';
+@import './components/credit-card';
+@import './components/widgets';
+@import './components/layout-selector';
+
+@media screen and (min-width: 1024px) {
+  html[dir="rtl"] .navbar-end {
+    justify-content: flex-end;
+    margin-right: auto;
+    margin-left: unset;
+  }
+  html[dir="rtl"] .navbar-start {
+    margin-right: unset;
+    margin-left: auto;
+  }
+}
+.landing-page-wrapper .hero .navbar .navbar-menu .navbar-item .nav-link {
+  font-size: 1.2rem
+}
+
+.field.has-addons .control:first-child:not(:only-child) .button,
+.field.has-addons .control:first-child:not(:only-child) .input,
+.field.has-addons .control:first-child:not(:only-child) .select select {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+html[dir="rtl"] .field.has-addons .control:first-child:not(:only-child) .button,
+html[dir="rtl"] .field.has-addons .control:first-child:not(:only-child) .input,
+html[dir="rtl"] .field.has-addons .control:first-child:not(:only-child) .select select {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  
+}
+.field.has-addons .control:last-child:not(:only-child) .button,
+.field.has-addons .control:last-child:not(:only-child) .input,
+.field.has-addons .control:last-child:not(:only-child) .select select {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+html[dir="rtl"] .field.has-addons .control:last-child:not(:only-child) .button,
+html[dir="rtl"] .field.has-addons .control:last-child:not(:only-child) .input,
+html[dir="rtl"] .field.has-addons .control:last-child:not(:only-child) .select select {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+html[dir="rtl"] body, html[dir="rtl"] button, html[dir="rtl"] input, html[dir="rtl"] optgroup, html[dir="rtl"] select, html[dir="rtl"] textarea {
+  font-family: yekan;
+}
+html[dir="rtl"] .buttons .button:not(:last-child):not(.is-fullwidth) {
+  margin-left: 0.5rem;
+  margin-right: unset;
+}
+html[dir="rtl"] .button .icon:first-child:not(:last-child) {
+  margin-right: calc(-0.5em - 1px);
+  margin-left: 0.25em;
+}
+html[dir="rtl"] .field.is-grouped > .control:not(:last-child) {
+  margin-left: 0.75rem;
+  margin-right: unset;
+}
+html[dir="rtl"] .demo-card .card-inner .field:not(.credit-card).is-grouped .control {
+  margin-inline-end: 0.75rem;
+}
+html[dir="rtl"] .file-icon {
+  margin-left: 0.5em;
+  margin-right: unset;
+}
+html[dir="rtl"] .file-name {
+  border-width: 1px 0 1px 1px ;
+}
+html[dir="rtl"] .file.has-name .file-cta {
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+html[dir="rtl"] .file.has-name .file-name {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+html[dir="rtl"] .file.is-right.has-name .file-cta {
+  border-bottom-left-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+html[dir="rtl"] .file.is-right.has-name .file-name {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+html[dir="rtl"] .file.is-right .file-name {
+  border-width: 1px  1px 1px 0;
+}
+
+html[dir="rtl"] .content blockquote {
+  border-right-style: solid; 
+  border-right-width: 5px ;
+  border-left-width:0;
+}
+html[dir="rtl"] .vc-popover-content-wrapper {
+  direction: ltr
+}
+
+html[dir="rtl"] .table th:not([align]) {
+  text-align: right;
+}
+html[dir="rtl"] .tags .tag:not(:last-child) {
+  margin-left: 0.5rem;
+  margin-right: unset;
+}

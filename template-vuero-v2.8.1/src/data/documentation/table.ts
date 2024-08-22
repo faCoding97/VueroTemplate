@@ -1,0 +1,292 @@
+export const flexRowsBasic = [
+  {
+    emoji: '🚴‍♂️',
+    color: 'زرد',
+    name: 'دوچرخه  سواری',
+    category: 'ورزشی',
+  },
+  {
+    emoji: '🏃‍♀️',
+    color: 'نارنجی',
+    name: 'دویدن',
+    category: 'ورزشی',
+  },
+  {
+    emoji: '🎿',
+    color: 'سبز',
+    name: 'اسکی',
+    category: 'ورزشی',
+  },
+  {
+    emoji: '🏊',
+    color: 'اینفو',
+    name: 'شنا',
+    category: 'ورزشی',
+  },
+  {
+    emoji: '🤸',
+    color: 'بنفش',
+    name: 'چرخ دستی',
+    category: 'ورزشی',
+  },
+]
+
+export const flexRowsContacts = [
+  {
+    id: 0,
+    company: 'Grubspot',
+    type: 'راهنمای جدید ',
+    industry: 'نرم افزار',
+    status: 'فعال',
+    contacts: [
+      {
+        id: 0,
+        picture: '/demo/avatars/25.jpg',
+        initials: 'AC',
+        color: 'info',
+      },
+      {
+        id: 1,
+        picture: undefined,
+        initials: 'JP',
+        color: 'info',
+      },
+      {
+        id: 2,
+        picture: '/images/avatars/svg/vuero-1.svg',
+        initials: 'EK',
+        color: 'h-purple',
+      },
+      {
+        id: 3,
+        picture: '/demo/avatars/5.jpg',
+        initials: 'ML',
+        color: 'danger',
+      },
+      {
+        id: 4,
+        picture: undefined,
+        initials: 'SC',
+        color: 'success',
+      },
+    ],
+  },
+  {
+    id: 1,
+    company: 'PhaseBit',
+    type: 'تایید شده',
+    industry: 'کریپتوکارنسی',
+    status: 'جدید',
+    contacts: [
+      {
+        id: 4,
+        picture: undefined,
+        initials: 'SC',
+        color: 'h-purple',
+      },
+    ],
+  },
+  {
+    id: 2,
+    company: 'Kokolint',
+    type: 'راهنمای جدید ',
+    industry: 'نرم افزار',
+    status: 'فعال',
+    contacts: [
+      {
+        id: 12,
+        picture: undefined,
+        initials: 'BT',
+        color: 'success',
+      },
+      {
+        id: 9,
+        picture: '/demo/avatars/7.jpg',
+        initials: 'AC',
+        color: 'h-purple',
+      },
+    ],
+  },
+  {
+    id: 3,
+    company: 'VScope X',
+    type: 'لغوشده',
+    industry: 'نرم افزار',
+    status: 'غیرفعال',
+    contacts: [
+      {
+        id: 7,
+        picture: '/demo/avatars/13.jpg',
+        initials: 'TS',
+        color: 'info',
+      },
+    ],
+  },
+  {
+    id: 4,
+    company: 'MediHelp',
+    type: 'تایید شده',
+    industry: 'نرم افزار',
+    status: 'معلق',
+    contacts: [
+      {
+        id: 0,
+        picture: '/demo/avatars/25.jpg',
+        initials: 'AC',
+        color: 'info',
+      },
+      {
+        id: 14,
+        picture: '/demo/avatars/11.jpg',
+        initials: 'KL',
+        color: 'danger',
+      },
+      {
+        id: 17,
+        picture: '/demo/avatars/5.jpg',
+        initials: 'ML',
+        color: 'warning',
+      },
+    ],
+  },
+]
+
+export const flexRowsAdvanced = [
+  {
+    id: 0,
+    username: 'علی ز.',
+    position: 'مدیر پروژه',
+    picture: '/images/avatars/svg/vuero-1.svg',
+    badge: '/images/icons/flags/united-states-of-america.svg',
+    location: 'ایران، البرز',
+    industry: 'نرم افزار',
+    annualEarnings: 115000,
+    status: 'فعال',
+    contacts: [
+      {
+        id: 0,
+        picture: '/demo/avatars/25.jpg',
+        initials: 'AC',
+        color: 'info',
+      },
+      {
+        id: 1,
+        picture: undefined,
+        initials: 'JP',
+        color: 'info',
+      },
+      {
+        id: 2,
+        picture: '/images/avatars/svg/vuero-1.svg',
+        initials: 'EK',
+        color: 'h-purple',
+      },
+      {
+        id: 3,
+        picture: '/demo/avatars/5.jpg',
+        initials: 'ML',
+        color: 'danger',
+      },
+      {
+        id: 4,
+        picture: undefined,
+        initials: 'SC',
+        color: 'success',
+      },
+    ],
+  },
+  {
+    id: 1,
+    username: 'صابر م.',
+    position: 'مدیر پروژه',
+    picture: '/demo/avatars/22.jpg',
+    badge: '/images/icons/flags/united-states-of-america.svg',
+    location: 'ایران ، تهران',
+    industry: 'بیزینس',
+    annualEarnings: 110000,
+    status: 'جدید',
+    contacts: [
+      {
+        id: 4,
+        picture: undefined,
+        initials: 'SC',
+        color: 'h-purple',
+      },
+    ],
+  },
+  {
+    id: 2,
+    username: 'ملانی و.',
+    position: 'توسعه دهنده وب',
+    picture: '/demo/avatars/25.jpg',
+    badge: '/images/icons/flags/united-states-of-america.svg',
+    location: 'ایران، رشت',
+    industry: 'طراحی',
+    status: 'فعال',
+    annualEarnings: 90000,
+    contacts: [
+      {
+        id: 12,
+        picture: undefined,
+        initials: 'BT',
+        color: 'success',
+      },
+      {
+        id: 9,
+        picture: '/demo/avatars/7.jpg',
+        initials: 'AC',
+        color: 'h-purple',
+      },
+    ],
+  },
+  {
+    id: 3,
+    username: 'حامد ج.',
+    position: 'توسعه دهنده بک اند',
+    picture: '/demo/avatars/12.jpg',
+    badge: '/images/icons/flags/united-states-of-america.svg',
+    location: 'ایران، البرز',
+    industry: 'حسابداری',
+    status: 'غیرفعال',
+    annualEarnings: 160000,
+    contacts: [
+      {
+        id: 7,
+        picture: '/demo/avatars/13.jpg',
+        initials: 'TS',
+        color: 'info',
+      },
+    ],
+  },
+  {
+    id: 4,
+    username: 'تینا کامرانی',
+    position: 'تحلیلگر بیزینس',
+    picture: '/demo/avatars/13.jpg',
+    badge: '/images/icons/flags/united-states-of-america.svg',
+    location: 'ایران ، تهران',
+    industry: 'مالی',
+    status: 'معلق',
+    annualEarnings: 247000,
+    contacts: [
+      {
+        id: 0,
+        picture: '/demo/avatars/25.jpg',
+        initials: 'AC',
+        color: 'info',
+      },
+      {
+        id: 14,
+        picture: '/demo/avatars/11.jpg',
+        initials: 'KL',
+        color: 'danger',
+      },
+      {
+        id: 17,
+        picture: '/demo/avatars/5.jpg',
+        initials: 'ML',
+        color: 'warning',
+      },
+    ],
+  },
+]
